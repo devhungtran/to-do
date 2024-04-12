@@ -72,6 +72,7 @@ const Home: React.FunctionComponent = () => {
     const handleDeleteTask: (index: number) => void = (index: number) => {
         const confirmed: boolean = window.confirm("Bạn có chắc chắn nhiệm vụ này đã hoàn thành chưa?");
         if (confirmed) {
+            task.splice(index, 1)
             localStorage.setItem('tasks', JSON.stringify(task));
             const taskLoadFromStorge: any[] = JSON.parse(localStorage.getItem("tasks") || '[]');
             setTask(taskLoadFromStorge)

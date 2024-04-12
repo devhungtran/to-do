@@ -23,7 +23,6 @@ const config = {
       },
       boxShadow: {
         "box-shadow-light": "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
-        "box-shadow": "rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;",
         "box-shadow-2": "rgba(190, 205, 226, 0.35) 0px 5px 15px;",
       },
       colors: {
